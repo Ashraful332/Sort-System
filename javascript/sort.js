@@ -24,6 +24,9 @@ function FetchFile() {
 const run = FetchFile();
 // console.log(run);
 
+
+// map the json data
+
 let SexData =  run.map(all => all.sex);
 // console.log(SeeSomeData);
 
@@ -41,5 +44,12 @@ let userData = run.map((all)=>{
      }
      
 })
-console.log(userData);
+// console.log(userData);
+
+// sort the json data
+let sortData = run.sort();
+console.log(sortData);
+
+
+
 
