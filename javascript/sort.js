@@ -10,27 +10,27 @@ let javascript = `
 // console.log(javascript);
 const fs = require('fs');
 
+function FetchFile() {
+    try {
+        const jsonString = fs.readFileSync('../DB/data.json', 'utf8');
+        const data = JSON.parse(jsonString);
+        return data;
+    } catch (err) {
+        console.log("❎ Error:", err);
+        return null;
+    }
+}
 
-// fetch the data from json file
+const run = FetchFile();
+// console.log(run);
 
-let JsonData;
+let SexData =  run.map(all => all.sex);
+// console.log(SeeSomeData);
 
-fs.readFile('../DB/data.json', 'utf8', (err, jsonString) => {
-     if (err) {
-          console.log("❎ Error Reading File ",err);
-          return null;
-     }
-     try{
-          const data = JSON.parse(jsonString);
-          console.log("Fetch data :" , data);
-          JsonData = data
-          
-     }catch(error){
-          console.error("❎ Error is coming :", error);
-          
-     }
-});
-
-
-
+let userData = run.map((all)=>{
+     all.id,
+     all.name,
+     all.sex
+})
+console.log(userData);
 
