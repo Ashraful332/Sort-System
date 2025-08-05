@@ -49,7 +49,9 @@ let userData = run.map((all)=>{
 // console.log(userData);
 
 // sort the json data
-let sortData = run.sort();
+// let sortData = run.sort((a,b) => a.id - b.id); // sort by number
+
+let sortData = run.sort((a,b) => a.name.localeCompare(b.name)); // sort by name
 console.log(sortData);
 
 
