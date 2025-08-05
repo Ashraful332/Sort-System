@@ -6,22 +6,16 @@
         "sex": "Female"
     },
     {
-        "id":4 ,
-        "name": "Bob Smith",
-        "job": "Data Scientist",
-        "sex": "Male"
+        "id": 11,
+        "name": "Jessica Jones",
+        "job": "Private Investigator",
+        "sex": "Female"
     },
     {
         "id": 7,
         "name": "Charlie Brown",
         "job": "Project Manager",
         "sex": "Male"
-    },
-    {
-        "id": 8,
-        "name": "Diana Prince",
-        "job": "Graphic Designer",
-        "sex": "Female"
     },
     {
         "id": 5,
@@ -35,10 +29,10 @@
         "job": "Chef",
         "sex": "Female"
     },
-    {
-        "id": 3,
-        "name": "George Bailey",
-        "job": "Architect",
+        {
+        "id":4 ,
+        "name": "Bob Smith",
+        "job": "Data Scientist",
         "sex": "Male"
     },
     {
@@ -48,15 +42,21 @@
         "sex": "Female"
     },
     {
+        "id": 3,
+        "name": "George Bailey",
+        "job": "Architect",
+        "sex": "Male"
+    },
+    {
         "id": 6,
         "name": "Ivan Drago",
         "job": "Athlete",
         "sex": "Male"
     },
     {
-        "id": 11,
-        "name": "Jessica Jones",
-        "job": "Private Investigator",
+        "id": 8,
+        "name": "Diana Prince",
+        "job": "Graphic Designer",
         "sex": "Female"
     },
     {
