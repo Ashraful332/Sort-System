@@ -2,5 +2,6 @@
 
 
 - javascript and python file management
-- array sorting
+- array and  sorting
 - javascript and python
+- javascript array
