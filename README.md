@@ -9,3 +9,9 @@
 - learning python
 - javascript code sharp
 
+```
+cd javascript
+cd python
+
+```
+
