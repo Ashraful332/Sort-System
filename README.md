@@ -6,3 +6,5 @@
 - javascript and python
 - javascript array
 - python dictionary
+- learning python
+
