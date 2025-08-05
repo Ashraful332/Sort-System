@@ -18,7 +18,7 @@ cd python
 -- --
 
 <p>clone the project of download the zip file</p>
-<hr/>
+
 
 ```
 git clone https://github.com/Ashraful332/Sort-System.git
