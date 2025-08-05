@@ -1,6 +1,6 @@
 # javascript and python sort system
 
 
-- javascript file management
+- javascript and python file management
 - array sorting
 - javascript and python
