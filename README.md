@@ -17,7 +17,7 @@ cd python
 
 -- --
 
-<p>- clone the project of download the zip file</p>
+<p>clone the project of download the zip file</p>
 
 
 ```
