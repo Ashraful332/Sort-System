@@ -28,9 +28,18 @@ let SexData =  run.map(all => all.sex);
 // console.log(SeeSomeData);
 
 let userData = run.map((all)=>{
-     all.id,
-     all.name,
-     all.sex
+     return {
+          "id":all.id,
+          "Name":all.name,
+          "Sex": (function () {
+               if(all.sex === "Female"){
+                    return "let's go to denver"
+               } else {
+                    return "go way for me " 
+               }
+          }())
+     }
+     
 })
 console.log(userData);
 
